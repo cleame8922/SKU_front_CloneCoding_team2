@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LikeLion12_front</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.js"> -->
+
+    <!-- 채연 css -->
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">s
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="/index.js" defer></script> -->
+</head>
+<body>
+    <div class="container">
+        <!-- 1번째 section -->
+        <div class="container1">
+             <!-- 동영상 배경 -->
+        <div class="hidden">
+            <video class="main_video" autoplay muted muted playsinline loop>
+                <source src="img/main_video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- 파란 head -->
+        <div class="head">
+            <!-- top 왼쪽 -->
+            <div class="head_top" id="color_parent">
+                <a href="#" class="head_goto_1">WEBMAIL</a>
+                <a href="#" class="head_goto_2">LOGOUT</a>
+                <a href="#" class="head_goto_3">PORTAL</a>
+            </div>
+
+            <!-- top 오른쪽 btn -->
+            <button class="top_btn">
+                <p class="btn_global">KOR</p>
+            </button>
+        </div>       
+
+        <div class="section">
+            <!-- nav -->
+            <div class="head_nav">
+                <!-- 성결대 로고 -->
+                <div class="head_logo"></div>
+
+                <!-- 6개 내용 섹션 -->
+                <div class="head_menu">
+                    <nav class="list">
+                        <ul class="nav_ul">
+                            <li class="nav_li">
+                                <p class="p_hover">성결소개</p>
+                                <div class="nav_container">
+                                   <ul class="ul_content">
+                                        <li class="li_content">
+                                            <p>교육이념</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">대학이념</li>
+                                                <li class="li_list">VISION 2030</li>
+                                                <li class="li_list">대학별 교육목표</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>총장실</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">총장인사말</li>
+                                                <li class="li_list">총장소개</li>
+                                                <li class="li_list">역대 학장 및 총장</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>학교법인</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">이사장소개</li>
+                                                <li class="li_list">역대 이사장</li>
+                                                <li class="li_list">법인 인원</li>
+                                                <li class="li_list">이사회</li>
+                                                <li class="li_list">기부금 공개</li>
+                                                <li class="li_list">산하기관</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>성결의 역사</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">연혁</li>
+                                                <li class="li_list">설립자</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>성결의 상징</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">UI</li>
+                                                <li class="li_list">교가</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>대학현황</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">기구표</li>
+                                                <li class="li_list">교직원찾기</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>성결대 홍보</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">홍보 미디어센터</li>
+                                                <li class="li_list">성결대학보</li>
+                                                <li class="li_list">SKU NEWS</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>캠퍼스안내</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">캠퍼스투어</li>
+                                                <li class="li_list">찾아오시는길</li>
+                                            </ul>
+                                        </li>
+                                    </ul> 
+                                </div>
+                            </li>
+
+                            <li class="nav_li">
+                                <p class="p_hover">대학/대학원</p>
+                                <div class="nav_container">
+                                    <ul class="ul_content">
+                                         <li class="li_content">
+                                             <p>대학</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">신학대학</li>
+                                                 <li class="li_list">인문대학</li>
+                                                 <li class="li_list">사회과학대학</li>
+                                                 <li class="li_list">글로벌경영기술대학</li>
+                                                 <li class="li_list">사범대학</li>
+                                                 <li class="li_list">IT공과대학</li>
+                                                 <li class="li_list">예술대학</li>
+                                                 <li class="li_list">파이데이아칼리지</li>
+                                                 <li class="li_list">융합대학</li>
+                                             </ul>
+                                         </li>
+
+                                         <li class="li_content">
+                                            <p>대학원</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">일반대학원</li>
+                                                <li class="li_list">신학대학원</li>
+                                                <li class="li_list">사회복지대학원</li>
+                                                <li class="li_list">교육대학원</li>
+                                                <li class="li_list">프라임대학원</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>대학원</p>
+                                            <hr>
+                                        </li>
+                                     </ul> 
+                                 </div>
+                            </li>
+
+                            <li class="nav_li">
+                                <p class="p_hover">입학안내</p>
+                                <div class="nav_container">
+                                    <ul class="ul_content">
+                                         <li class="li_content">
+                                             <p>대학</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">입학전형안내</li>
+                                                 <li class="li_list">수시</li>
+                                                 <li class="li_list">정시</li>
+                                                 <li class="li_list">편입학</li>
+                                                 <li class="li_list">재외국민/새터민</li>
+                                                 <li class="li_list">외국인전형</li>
+                                             </ul>
+                                         </li>
+
+                                         <li class="li_content">
+                                            <p>대학원</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">일반대학원</li>
+                                                <li class="li_list">신학대학원</li>
+                                                <li class="li_list">사회복지대학원</li>
+                                                <li class="li_list">교육대학원</li>
+                                                <li class="li_list">프라임대학원</li>
+                                                <li class="li_list">편입학</li>
+                                                <li class="li_list">외국인전형</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>계약학과</p>
+                                            <hr>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>외국인 입학</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">학부교육과정</li>
+                                                <li class="li_list">한국어교육과정</li>
+                                            </ul>
+                                        </li>
+                                     </ul> 
+                                 </div>
+                            </li>
+
+                            <li class="nav_li">
+                                <p class="p_hover">대학생활</p>
+                                <div class="nav_container">
+                                    <ul class="ul_content">
+                                         <li class="li_content">
+                                             <p>자치조직</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">총학생회 회칙</li>
+                                                 <li class="li_list">자치조직</li>
+                                                 <li class="li_list">선거시행세칙</li>
+                                             </ul>
+                                         </li>
+
+                                         <li class="li_content">
+                                            <p>동아리</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">기독분과</li>
+                                                <li class="li_list">문화분과</li>
+                                                <li class="li_list">예능분과</li>
+                                                <li class="li_list">체육분과</li>
+                                                <li class="li_list">학술/봉사분과</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>학교시설</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">생활관</li>
+                                                <li class="li_list">보건소</li>
+                                                <li class="li_list">학술정보관</li>
+                                                <li class="li_list">복지시설이용</li>
+                                                <li class="li_list">대학일자리플러스센터</li>
+                                                <li class="li_list">학생상담센터</li>
+                                                <li class="li_list">사회봉사센터</li>
+                                                <li class="li_list">장애학생지원센터</li>
+                                                <li class="li_list">교수학습지원센터</li>
+                                                <li class="li_list">교육혁신지원센터</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>사이버신고센터</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">인권침해 및 성희롱,성폭력</li>
+                                            </ul>
+                                        </li>
+                                     </ul> 
+                                 </div>
+                            </li>
+
+                            <li class="nav_li">
+                                <p class="p_hover">서비스</p>
+                                <div class="nav_container">
+                                    <ul class="ul_content">
+                                         <li class="li_content">
+                                             <p>학사정보</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">학사일정</li>
+                                                 <li class="li_list">수강신청안내</li>
+                                                 <li class="li_list">학적변동</li>
+                                                 <li class="li_list">부,복수전공</li>
+                                                 <li class="li_list">교직</li>
+                                                 <li class="li_list">평생교육사</li>
+                                                 <li class="li_list">증명서 발급</li>
+                                                 <li class="li_list">계절학기</li>
+                                                 <li class="li_list">학점교류안내</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>대학직장예비군</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">병무행정</li>
+                                                 <li class="li_list">군종장교후보생 선발안내</li>
+                                                 <li class="li_list">대학직장예비군부대</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>통합역량개발시스템<br>(SUCCESS)</p>
+                                             <hr>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>학술정보관</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">XR센터</li>
+                                                 <li class="li_list">통합예약시스템</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>등록/장학정보</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">등록</li>
+                                                 <li class="li_list">장학</li>
+                                                 <li class="li_list">학자금 대출</li>
+                                                 <li class="li_list">학자금중복지원방지</li>
+                                                 <li class="li_list">학생증발급</li>
+                                                 <li class="li_list">장학금 관련 서류 발급 안내</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>IT지원서비스</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">SKY 시스템 소개</li>
+                                                 <li class="li_list">메뉴얼 게시판</li>
+                                                 <li class="li_list">교내 백신 설치</li>
+                                                 <li class="li_list">교내 정보화 서비스 안내</li>
+                                                 <li class="li_list">학부(과) 홈페이지 관리</li>
+                                                 <li class="li_list">정보보호</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>주간 식단 안내</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">학생식당</li>
+                                                 <li class="li_list">교직원식당</li>
+                                             </ul>
+                                         </li>
+ 
+                                         <li class="li_content">
+                                             <p>원격지원서비스</p>
+                                             <hr>
+                                         </li>
+                                     </ul> 
+                                 </div>
+                            </li>
+                            
+                            <li class="nav_li">
+                                <p class="p_hover">성결광장</p>
+                                <div class="nav_container">
+                                    <ul class="ul_content">
+                                         <li class="li_content">
+                                             <p>공지사항</p>
+                                             <hr>
+                                             <ul class="ul_list">
+                                                 <li class="li_list">새소식</li>
+                                                 <li class="li_list">학사</li>
+                                                 <li class="li_list">학생</li>
+                                                 <li class="li_list">장학/등록/학자금</li>
+                                                 <li class="li_list">입학</li>
+                                                 <li class="li_list">취업/진로개발/창업</li>
+                                                 <li class="li_list">공모/행사</li>
+                                                 <li class="li_list">교육/글로벌</li>
+                                                 <li class="li_list">일반</li>
+                                                 <li class="li_list">입찰구매정보</li>
+                                                 <li class="li_list">사회봉사센터</li>
+                                                 <li class="li_list">장애학생지원센터</li>
+                                                 <li class="li_list">생활관</li>
+                                                 <li class="li_list">비교과</li>
+                                             </ul>
+                                         </li>
+
+                                         <li class="li_content">
+                                            <p>구성원참여소통<br>(통합민원)</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">학사/학적변동</li>
+                                                <li class="li_list">장학/학자금대출</li>
+                                                <li class="li_list">등록금</li>
+                                                <li class="li_list">예비군</li>
+                                                <li class="li_list">교목실</li>
+                                                <li class="li_list">IT서비스</li>
+                                                <li class="li_list">소비자생활협동조합</li>
+                                                <li class="li_list">시설물수리요청</li>
+                                                <li class="li_list">공익신고</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>구성원참여소통(학사구조 및 정책제안)</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">교내인 정책제안</li>
+                                                <li class="li_list">교외인 정책제안</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>알림방</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">청탁금지</li>
+                                                <li class="li_list">개인정보처리방침</li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="li_content">
+                                            <p>자료실</p>
+                                            <hr>
+                                            <ul class="ul_list">
+                                                <li class="li_list">각종신청서</li>
+                                                <li class="li_list">행정자료실</li>
+                                            </ul>
+                                        </li>
+                                     </ul> 
+                                 </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- icon util -->
+                <div class="head_util">
+                    <ul class="search">
+                        <li class="li1">
+                            <button class="icon_btn search_icon" id="search">
+                                <img src="img/ico-search.png" class="hidden_search" alt="ico-search">
+                                <!-- <img src="img/ico-search-color.png" class="hidden_search_color" alt="ico-search-color"> -->
+                            </button>
+                        </li>
+                        <li class="li2">
+                            <button class="icon_btn sitemap_icon" id="iconBtn">
+                                <img src="img/ico-sitemap.png" class="hidden_sitemap" alt="ico-sitemap">
+                                <!-- <img src="img/ico-sitemap-color.png" class="hidden_sitemap_color" alt="ico-sitemap-color"> -->
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+        </div>
+
+        <!-- 2번째 section -->
+
+        <!-- 3번째 section -->
+        <div class="container3"> 
+            <!-- <img src="img/bg-introduce.jpg" alt=""> -->
+            <div class="left_content"> <!-- 왼쪽 컨텐츠 div -->
+                <div class="left_top"> <!-- 왼쪽 컨텐츠 위 -->
+                    <div class="thumb"> <!-- 뒤 이미지 -->
+                        <img src="img/img-depart6.jpg" alt="hello">
+                    </div>
+                    <div class="thumb_info"> <!-- 앞 정보 부분 -->
+                        <img src="img/bg-depart.png" alt="bg-depart">
+                        <div class="info_desc">
+                            <div class="intro">SKU INTRODUCTION</div>
+                            <strong class="subject">IT 공과대학</strong>
+                            <p class="intro_info">
+                                성결대학교 공과대학은 공학기술자가 현대 사회에서 지고 있는 막중한 책임과 역할에 
+                                유의하여 교육에 임하고 있다. 공과대학은 그 전문성에 따라 컴퓨터 공학, 정보통신 공학, 
+                                멀티미디어 공학, 산업경영으로 구분하여 교육에 임하고 있다. 
+                            </p>
+                            <div class="goto">
+                                <ul>
+                                    <li><p>컴퓨터공학과</p></li>
+                                    <li><p>정보통신공학과</p></li>
+                                    <li><p>미디어소프트웨어학과</p></li>
+                                    <li><p>도시디자인정보공학과</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_bottom">
+                    <div class="guide">
+                        <img src="img/bg-campus.png" class="bg_campus" alt="bg-campus">
+                        <div class="campus">
+                            <strong class="title">SKU<br>캠퍼스가이드</strong>
+                            <ul class="guide_ul">
+                                <li class="guide_li">
+                                    <div class="guide_div">
+                                        <div class="guide_icon">
+                                            <img src="img/ico-campus1.png" alt="ico-campus3">
+                                        </div>
+                                        <div class="guide_p">캠퍼스맵</div>
+                                    </div>
+                                </li>
+
+                                <li class="guide_li">
+                                    <div class="guide_div">
+                                        <div class="guide_icon">
+                                            <img src="img/ico-campus2.png" alt="ico-campus3">
+                                        </div>
+                                        <div class="guide_p">찾아오시는길</div>
+                                    </div>
+                                </li>
+
+                                <li class="guide_li">
+                                    <div class="guide_div">
+                                        <div class="guide_icon">
+                                            <img src="img/ico-campus3.png" alt="ico-campus3">
+                                        </div>
+                                        <div class="guide_p">교내전화번호</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_content"> 
+                <div class="newsBox">
+                    <strong class="skuTitle titillium-web-semibold">SKU NEWS</strong>
+                    <div>
+                      <ul>
+                        <div>
+                            <li class="mb-19">
+                                <a href="#">
+                                  <div class="infoBox">
+                                    <div class="newsDate flex flex-row">
+                                      <div class="dateIcon"></div>
+                                      <div class="dateText">2024.05.28</div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="newsDetail">성결대, 불법촬영 예방을 위한 민관경 합동 캠페인 및 캠퍼스 폴리스(S.C.P.) 발대식</div>
+                                <a>
+                            </li>
+
+                            <li class="mb-19">
+                                <a href="#">
+                                  <div class="infoBox">
+                                    <div class="newsDate flex flex-row">
+                                      <div class="dateIcon"></div>
+                                      <div class="dateText">2024.05.29</div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="newsDetail">성결대 글로벌물류학부, 데이터사이언스 논문 경진대회 성료</div>
+                                <a>
+                            </li>
+
+                            <li class="mb-19">
+                                <a href="#">
+                                  <div class="infoBox">
+                                    <div class="newsDate flex flex-row">
+                                      <div class="dateIcon"></div>
+                                      <div class="dateText">2024.06.04</div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="newsDetail">성결대학교 영화영상전공 04학번 윤혜렴 CJ ENM  2023 오프닝(O PENing)‘ </div>
+                                <a>
+                            </li>
+
+                            <li class="mb-19">
+                                <a href="#">
+                                <div class="infoBox">
+                                    <div class="newsDate flex flex-row">
+                                    <div class="dateIcon"></div>
+                                    <div class="dateText">2024.06.10</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="newsDetail">영화영상전공 15학번 이윤석  ID_영길엄마  코리안시네마 부문, 22학번 양선민  하나의</div>
+                                <a>
+                            </li>
+
+                            <li class="mb-19">
+                                <a href="#">
+                                <div class="infoBox">
+                                    <div class="newsDate flex flex-row">
+                                    <div class="dateIcon"></div>
+                                    <div class="dateText">2024.06.10</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="newsDetail">성결대, 경기도의회 위원들과 RISE사업 협력 강화, ‘제1회 지역사회협력회의’ 성료</div>
+                                <a>
+                            </li>
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="flex flex-row controlButton">
+                      <button type="button" class="upButton"></button>
+                      <button type="button" class="downButton"></button>
+                    </div>
+      
+      
+            </div>
+        </div>
+       
+        <!-- 4번째 section -->
+    </div>
+</body>
+</html>

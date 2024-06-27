@@ -1,0 +1,21 @@
+.dateText {
+  font-family: 'Noto Light';
+  color: rgba(63, 63, 63, 0.6);
+  font-size: 15px;
+  display: block;
+}
+
+.dateIcon {
+  /* position: absolute; */
+  /* left: 0; */
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  background: url(https://www.sungkyul.ac.kr/Web-home/fnct/recentBbs/main_recent/images/bul-news.png)
+    no-repeat center center;
+}
+
+.newsDate {
+  padding: 0px 0px 0px 25px;
+  margin: 0px 0px 5px 0px;
+}

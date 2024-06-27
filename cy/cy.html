@@ -1,0 +1,422 @@
+단축키 업데이트 … 2024년 8월 1일 목요일부터 첫 글자를 탐색할 수 있도록 Drive 단축키가 업데이트됩니다.자세히 알아보기
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clonecoding3</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="/index.js" defer></script>
+
+<body>
+    <div class="container2">
+        <div class="left_con">
+            <div class="wrap1">
+                <div class="notice_nav">
+                    <div class="notice"><button class="button" onclick="showSection('academic')">학사</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('news')">새소식</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('scholarship')">장학/등록</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('admission')">입학</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('employment')">취업</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('student')">학생</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('global')">글로벌</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('general')">일반</button></div>
+                    <div class="notice"><button class="button" onclick="showSection('extracurricular')">비교과</button></div>  
+                </div>
+        
+                <!-- 학사 -->
+                <div id="academic" class="notice_content">
+                    <div class="item">
+                        <div class="subject">2024년도 제3차 평생교육사 자격증 발급 신청 안내</div>
+                        <span class="date">2024.06.20</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024-1학기 신학대학 영성훈련 안내</div>
+                        <span class="date">2024.06.10</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 1학기 강의평가 실시 안내</div>
+                        <span class="date">2024.06.07</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 1학기 성적처리 일정안내</div>
+                        <span class="date">2024.06.07</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">학칙 개정(안) 공고</div>
+                        <span class="date">2024.06.04</span>
+                    </div>
+                </div>
+        
+                <!-- 새소식 -->
+                <div id="news" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">성결대-안양시기독교연합회, 기독교 글로벌 리더 양성 위한 업무 협약 체결 및 장학금 기증</div>
+                        <span class="date">2024.06.19</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">성결대학교 안양중앙인정시장 비전 선포식 참여</div>
+                        <span class="date">2024.06.13</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">美 풀브라이트 AIEA 참가단, 성결대학교 방문</div>
+                        <span class="date">2024.06.12</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">영화영상전공 15학번 이윤석  ID_영길엄마  코리안시네마 부문, 22학번 양선민  하나의</div>
+                        <span class="date">2024.06.10</span>
+                    </div>
+                </div>
+        
+                <!-- 장학/등록 -->
+                <div id="scholarship" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">[국가근로] 2024학년도 1학기 하계방학 집중근로 프로그램 대상자 사전교육 알림</div>
+                        <span class="date">2024.06.17</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[외부장학] (재)익산사랑장학재단 2024년도 익산사랑 장학생 선발 공고</div>
+                        <span class="date">2024.06.05</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[학자금대출] 2024년 상반기 천안시 대학생 학자금 대출이자 지원 안내</div>
+                        <span class="date">2024.06.05</span>
+                    </div>
+                     <div class="item">
+                        <div class="subject">[외부장학] 2024년 화성시인재육성재단 「꿈드림 장학금」신청 안내</div>
+                        <span class="date">2024.06.03</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 하계 계절학기 등록 안내</div>
+                        <span class="date">2024.06.03</span>
+                    </div>
+                </div>
+        
+                <!-- 입학 -->
+                <div id="admission" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">2024학년도 후기 대학원 신(편)입생 모집안내</div>
+                        <span class="date">2024.05.17</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 전기 3차 대학원 신(편)입생 모집안내</div>
+                        <span class="date">2024.02.19</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 전기 2차 대학원 신(편)입생 모집안내</div>
+                        <span class="date">2024.01.09</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2024학년도 전기 대학원 신(편)입생 모집안내</div>
+                        <span class="date">2023.11.02</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">2023학년도 후기 2차 성결대학교 대학원 신(편)입생 모집전형</div>
+                        <span class="date">2023.07.12</span>
+                    </div>
+                </div>
+        
+                <!-- 취업 -->
+                <div id="employment" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">[대학혁신/현장실습지원센터] 2024학년도 2학기 진로탐색학점제 신청 안내</div>
+                        <span class="date">2024.06.18</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">임팩트 커리어 실험실 : ESG 커리어  프로젝트 안내(~6/20) (우아한형제들, 파타)</div>
+                        <span class="date">2024.06.13</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[대학일자리플러스센터]2024년 성결대학교 직무박람회 JOB A DREAM 우수 참여자 발</div>
+                        <span class="date">2024.06.11</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[대학일자리플러스센터] 클라우드를 활용한 풀스택-빅데이터(AI) 융합 개발자 양성과정 교육</div>
+                        <span class="date">2024.06.03</span>
+                    </div>
+                </div>
+        
+                <!-- 학생 -->
+                <div id="student" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">제2회 SKU 가치로운 미래리더십 프로그램(SKU-FLIP) 최종 선발 안내</div>
+                        <span class="date">2024.06.17</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">제 2회 SKU 가치로운 미래리더십 프로그램(SKU-FLIP) 신청 안내(신청 기간 변경)</div>
+                        <span class="date">2024.05.23</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[안내] 2024년 제 61회 영암축전으로 인한 운동장 및 중생관 주차 이용 안내</div>
+                        <span class="date">2024.05.02</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">제2회 SKU 가치로운 미래리더십 프로그램(SKU-FLIP) 신청 안내</div>
+                        <span class="date">2024.04.08</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[안내] 2024학년도 1학기 사물함 신청(추가 접수) 안내</div>
+                        <span class="date">2024.03.19</span>
+                    </div>
+                </div>
+        
+                <!-- 글로벌 -->
+                <div id="global" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">[대학혁신]2024-여름학기 Adobe 제품을 사용한 자기주도 학습 안내</div>
+                        <span class="date">2024.06.11</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[온라인교육]6월 KSDC DB/ICPSR 교육</div>
+                        <span class="date">2024.05.20</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[온라인교육]ProQuest (RefWorks 포함) 6월교육</div>
+                        <span class="date">2024.05.13</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[온라인교육]DBPIA 교육(5월 교육)</div>
+                        <span class="date">2024.04.24</span>
+                    </div>
+                </div>
+        
+                <!-- 일반 -->
+                <div id="general" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">2024학년도 2학기 비전임교원 초빙 공고</div>
+                        <span class="date">2024.06.18</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">한국신학대학도서관협의회 회원교 하계방학 중 일반열람실 공동이용 안내(6/21~8/30)</div>
+                        <span class="date">2024.06.13</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">경기, 인천지역 대학도서관 하계방학 기간 중 열람실 공동이용 안내(6/24~8/30)</div>
+                        <span class="date">2024.06.11</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[긴급 - 채용공고] 계약직 직원 채용 공고(회계직)</div>
+                        <span class="date">2024.06.03</span>
+                    </div>
+                </div>
+        
+                <!-- 비교과 -->
+                <div id="extracurricular" class="notice_content hidden">
+                    <div class="item">
+                        <div class="subject">[대학혁신/교육혁신] 월간 비교과 7월 안내</div>
+                        <span class="date">2024.06.18</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[대학혁신/교육혁신] 2024 U7 교류 비교과 안내(한신대 6월)</div>
+                        <span class="date">2024.06.13</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[대학혁신/교육혁신] 월간 비교과 6월 안내</div>
+                        <span class="date">2024.06.11</span>
+                    </div>
+                    <div class="item">
+                        <div class="subject">[대학혁신/교육혁신] 2024 성결 FAIR 부스 참여 이벤트 당첨자 발표</div>
+                        <span class="date">2024.06.03</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="wrap2">
+                <!-- 학사일정 -->
+                <section class="academic-schedule">
+                    <div class="wrap-sch">
+                        <div class="wrap-src-span">
+                            <span class="title"><span>학사일정</span></span>
+                        </div>
+                        
+                        <div class="wrap-src-ul">
+                            <ul class="schedule">
+                                <li class="info">
+                                    <div class="date">
+                                        <span>27</span>
+                                    </div>
+                                    <div class="desc">
+                                        <span class="full-date">06.27 - 06.27</span>
+                                        <span class="subject">성적 및 출석부 제출마감</span>
+                                    </div>
+                                </li>
+                                <li class="info">
+                                    <div class="date">
+                                        <span>28</span>
+                                    </div>
+                                    <div class="desc">
+                                        <span class="full-date">06.28 - 06.28</span>
+                                        <span class="subject">재학생 성적열람</span>
+                                    </div>
+                                </li>
+                                <li class="info">
+                                    <div class="date">
+                                        <span>01</span>
+                                    </div>
+                                    <div class="desc">
+                                        <span class="full-date">07.01 - 07.03</span>
+                                        <span class="subject">재학생 성적정정 신청기간</span>
+                                    </div>
+                                </li>
+                                <li class="info">
+                                    <div class="date">
+                                        <span>12</span>
+                                    </div>
+                                    <div class="desc">
+                                        <span class="full-date">07.12 - 07.15</span>
+                                        <span class="subject">계절학기 성적 및 출석부 제출</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <!-- 자주 찾는 서비스 -->
+        <div class="wrap-favorite">
+            <div class="box-favorite">
+                <strong class="title">자주찾는 서비스</strong>
+                <div class="control">
+                    <button type="button" class="prev slick-arrow slick-hidden" aria-disabled="true" tabindex="-1">이전 슬라이드</button>
+                
+                    <button type="button" class="stop">슬라이드 정지</button>
+                    <button type="button" class="play on">슬라이드 재생</button>
+                
+                    <button type="button" class="next slick-arrow slick-hidden" aria-disabled="true" tabindex="-1">다음 슬라이드</button>
+                </div>
+
+                <div class="info_div">
+                    <ul class="slider slick-initialized slick-slider">
+                        <div class="slick-track" style="opacity: 1; width: 585px; transform: translate3d(0px, 0px, 0px);" role="listbox"></div>
+                        <li class="slick-slide" style="width: 117px;" tabindex="-1" role="option" aria-describedby="slick-slide11" data-slick-index="1" aria-hidden="false">
+                            <a href="https://www.sungkyul.ac.kr/skukr/340/subview.do" target="_blank" title="새 창" tabindex="0">
+                                <div class="icon"> 
+                                    <img src="/imageSlide/temp_1613986611766100.png" alt="식단안내">
+                                </div>
+                                <div class="info-list">
+                                    <span>
+                                        식단안내
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="slick-slide" style="width: 117px;" tabindex="-1" role="option" aria-describedby="slick-slide11" data-slick-index="1" aria-hidden="false">
+                            <a href="https://www.sungkyul.ac.kr/ipsi/93/subview.do" target="_blank" title="새 창" tabindex="0">
+                                <div class="icon"> 
+                                    <img src="/imageSlide/temp_1613986588807100.png" alt="입학안내">
+                        </div>
+                        <div class="info-list">
+                            <span>
+                                입학안내
+                            </span>
+                        </div>
+                        </a>
+                        </li>
+                        <li class="slick-slide" style="width: 117px;" tabindex="-1" role="option" aria-describedby="slick-slide11" data-slick-index="1" aria-hidden="false">
+                            <a href="https://www.sungkyul.ac.kr/skukr/330/subview.do" target="_blank" title="새 창" tabindex="0">
+                                <div class="icon"> 
+                                    <img src="/imageSlide/temp_1613986565976100.png" alt="장학안내">
+                        </div>
+                        <div class="info-list">
+                            <span>
+                                장학안내
+                            </span>
+                        </div>
+                        </a>
+                        </li>
+                        <li class="slick-slide" style="width: 117px;" tabindex="-1" role="option" aria-describedby="slick-slide11" data-slick-index="1" aria-hidden="false">
+                            <a href="https://www.sungkyul.ac.kr/skukr/329/subview.do" target="_blank" title="새 창" tabindex="0">
+                                <div class="icon"> 
+                                    <img src="/imageSlide/temp_1613986528006100.png" alt="등록안내">
+                                </div>
+                                <div class="info-list">
+                                    <span>
+                                        등록안내
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="slick-slide" style="width: 117px;" tabindex="-1" role="option" aria-describedby="slick-slide11" data-slick-index="1" aria-hidden="false">
+                            <a href="https://www.sungkyul.ac.kr/skukr/337/subview.do" target="_blank" title="새 창" tabindex="0">
+                                <div class="icon"> 
+                                    <img src="/imageSlide/temp_1659415424819100.png" alt="IT서비스 안내">
+                                </div>
+                            <div class="info-list">
+                                <span>
+                                    IT서비스 안내
+                                </span>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <!-- about sku -->
+            <div class="about-sku">
+                <!-- Title -->
+                <div class="title">ABOUT SKU</div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <a href="http://skebook.co.kr" target="_blank" title="새 창">
+                        <img src="/imageSlide/temp_1679976702325100.jpg" alt="성결대학교-비교과-교육과정-가이드북_2023">
+                        <div class="desc">성결대학교 비교과 교육과정 가이드북</div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                    <a href="https://www.sungkyul.ac.kr/skukr/342/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGc2t1a3IlMkY5NyUyRjM0MzkzJTJGYXJ0Y2xWaWV3LmRvJTNGaXNWaWV3TWluZSUzRGZhbHNlJTI2YmJzQ2xTZXElM0QlMjZzcmNoV3JkJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZwYWdlJTNEMSUyNmJic09wZW5XcmRTZXElM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNnNyY2hDb2x1bW4lM0QlMjZwYXNzd29yZCUzRCUyNg%3D%3D" target="_blank" title="새 창">
+                        <img src="/imageSlide/temp_1712129425008100.jpg" alt="홍보아이템 제보">
+                        <div class="desc">홍보 아이템 제보 안내</div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                    <a href="https://youtu.be/qQU7cquSmGU" target="_blank" title="새 창">
+                        <img src="/imageSlide/temp_1655682649163100.jpg" alt="성결대학교 소개">
+                        <div class="desc">성결대학교 소개</div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                    <a href="/skukr/486/subview.do">
+                        <img src="/imageSlide/temp_1613982893043100.jpg" alt="개인정보보호 교육영상">
+                        <div class="desc">개인정보보호 교육영상</div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                    <a href="https://fund.sungkyul.ac.kr/" target="_blank" title="새 창">
+                        <img src="/imageSlide/temp_1613982816608100.jpg" alt="성결대학교 발전기금 여러분의 참여를 기다립니다. 바로가기">
+                        <div class="desc">성결대학교 발전기금</div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                    <a href="https://youtu.be/F62uflyKOQs" target="_blank" title="새 창">
+                        <img src="/imageSlide/temp_1679976589868100.jpg" alt="성결대학교 비교과 교육과정 안내">
+                        <div class="desc">성결대학교 비교과 교육과정 안내</div>
+                    </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bannerZone {
+  height: 110px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.control {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  margin-right: 20px;
+  font-family: 'Noto Demilight';
+  font-size: 20px;
+}
+
+.pre,
+.stop,
+.next {
+  width: 10px;
+  height: 18px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.pre {
+  background-image: url(https://www.sungkyul.ac.kr/Web-home/fnct/imageSlide/kr_rolling/images/ico-rolling-prev.png);
+}
+
+.next {
+  background-image: url(https://www.sungkyul.ac.kr/Web-home/fnct/imageSlide/kr_rolling/images/ico-rolling-next.png);
+}
+
+.stop {
+  background-image: url(https://www.sungkyul.ac.kr/Web-home/fnct/imageSlide/kr_rolling/images/ico-rolling-stop.png);
+  margin: 0 18px;
+}
+
+.bannerbox {
+  position: absolute;
+}
+
+.slidebanner {
+  position: relative;
+  overflow: hidden;
+  height: 110px;
+  width: 80%;
+}
+
+.slidebanner li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  padding: 40px 22.5px;
+  font-family: 'Noto Snas KR';
+  font-weight: 200;
+  font-size: 20px;
+}

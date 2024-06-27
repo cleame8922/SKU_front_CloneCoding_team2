@@ -1,0 +1,57 @@
+/* #sub-menu {
+  position: absolute;
+  background-color: #2b3543;
+  max-height: 430px;
+  overflow: auto;
+  transform: max-height 0.8s ease;
+  opacity: 0;
+  visibility: hidden;
+} */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 
+#menuLi {
+  width: 43px;
+  color: #ffffff;
+  font-family: 'Noto Light';
+  text-decoration: none;
+  font-size: 15px;
+} */
+
+/* #sub-menu > li {
+  padding: 10px 15px;
+  width: 234px;
+  height: 43px;
+  border-bottom: 1px #3c4654;
+  border: 1px solid #3c4654;
+  color: #ffffff;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+} */
+
+.jump {
+  width: 234px;
+  height: 64px;
+  padding: 0 20px;
+  background: #3d4146
+    url(https://www.sungkyul.ac.kr/sites/skukr/images/common/arrow-jump-open.png)
+    no-repeat right center;
+  font-size: 17px;
+  color: #fff;
+  text-align: left;
+}
+
+.go {
+  width: 66px;
+  height: 64px;
+  background: #295ca4
+    url(https://www.sungkyul.ac.kr/sites/skukr/images/common/arrow-jump.png)
+    no-repeat center center;
+}

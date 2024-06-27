@@ -1,0 +1,403 @@
+* {margin : 0; padding: 0;} 
+* {font-family: "Noto Sans KR", sans-serif;}
+* {text-decoration: none;}
+
+button {border: 1px solid #e0e0e0;}
+
+.li_content, .nav_li, .search, ul, li{list-style : none;}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 .hidden .main_video {
+    width: 100%;
+    height: 100%;
+}
+
+/* 파란 head -------------------------------------------------- */
+
+.container1 .head{
+    background-color: #003956;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    height: 38px;
+    position: absolute;
+    top: 0;
+}
+
+.container1 .head .head_top{
+    display: inline-block;
+}
+
+.container1 .head .head_top > a{
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 10px;
+    float: left;
+}
+
+.container1 .head .head_top .head_goto_1{
+    margin-left: 20px;
+    background-color: #295ca4;
+}
+
+.container1 .head .head_top .head_goto_2{
+    background-color: #c71514;
+}
+
+.container1 .head .head_top .head_goto_3{
+    background-color: #676767;
+}
+
+.container1 .head .top_btn {
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    float: right;
+    display: block;
+    height: 40px;
+    padding: 0 24px 0 30px;
+    background: url(img/ico-global.png) no-repeat left center;
+    line-height: 40px;
+    font-family: 'Noto Regular';
+    font-size: 14px;
+    color: #fff;
+}
+
+.container1 .head .top_btn::after {
+    margin-right: 8px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 7px;
+    height: 5px;
+    background: url(img/arrow-global.png) no-repeat center center;
+}
+
+.container1 .head .top_btn p{
+    display: inline-block;
+    color: white;
+}
+
+/* nav ---------------------------------------------------------------- */
+.container1 .section .head_nav {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    top: 38px;
+    padding: 0px 0px 0px 20px;
+    position: absolute;
+    background-image: url(img/top-logo.png);
+    background-repeat: no-repeat;
+    background-position: 25px;
+    .nav_li{color: white;}
+}
+
+.container1 .section .head_nav:hover {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    top: 38px;
+    padding: 0px 0px 0px 20px;
+    position: absolute;
+    background-image: url(img/top-logo-color.png);
+    background-repeat: no-repeat;
+    background-position: 30px 25px;
+    .nav_li{color: black;}
+}
+
+/* 6개 내용 섹션 */
+.container1 .section .head_menu{
+    width: 55%;
+    padding-left: 30%;
+}
+
+.container1 .section .head_menu .list .nav_ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.container1 .section .head_menu .list .nav_ul .nav_li {
+    padding: 41px 7px;
+}
+
+.container1 .section .head_menu .list .nav_ul .nav_li:hover {
+    padding: 41px 7px;
+    .nav_container{display: block;}
+    .p_hover{border-bottom: 3px solid #295ca4; padding-bottom: 4px; border-radius: 2px;}
+}
+
+.container1 .section .head_menu .list .nav_ul .nav_li .nav_container{
+    display: none;
+    position: absolute;
+    top: 99.9%;
+    left: 0px;
+    width: 100%;
+    /* height: 100%; */
+    padding: 50px;
+    background-image: url(img/bg-gnb.jpg);
+    background-size: 100%;
+}
+
+.container .section .head_menu .list .nav_ul .nav_li .nav_container .ul_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px 80px;
+}
+
+.head_menu .list .nav_ul .nav_li .nav_container .ul_content .li_content{
+    padding: 40px;
+}
+
+.head_menu .list .nav_ul .nav_li .nav_container .ul_content .li_content > p{
+    padding: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.head_menu .list .nav_ul .nav_li .nav_container .ul_content .li_content .ul_list{
+    color: #999;
+}
+
+.head_menu .list .nav_ul .nav_li .nav_container .ul_content .li_content .ul_list .li_list{
+    padding: 5px;
+}
+
+/* icon util */
+.container1 .section .head_util{
+    justify-content: center;
+    width: 15%;
+}
+
+.container1 .section .head_util .search{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.container1 .section .head_util .search > li{
+    padding: 41px 7px;
+}
+
+.container1 .section .head_util .search .icon_btn{
+    background-color: #00ff0000;
+    border: none;
+}
+
+.container1 .section .head_util .search .li2{
+    margin-left: 30px;
+}
+
+/* 3번째 section */
+
+.container3{
+    background-image: url(img/bg-introduce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 70px 20px;
+}
+
+/* 왼쪽 컨텐츠 */
+.container3 .left_content {
+    position: relative;
+    float: left;
+    width: 65%;
+    height: 673px;
+    padding: 20px;
+}
+
+/* 왼쪽 위 */
+.container3 .left_content .left_top .thumb {
+    position: absolute;
+    top: 0;
+}
+
+.container3 .left_content .left_top .thumb_info{
+    position: absolute;
+    right: 5%;
+    top: 45px;
+}
+
+.container3 .left_content .left_top .thumb_info .info_desc{
+    position: absolute;
+    top: 0;
+    padding: 40px;
+}
+
+.container3 .left_content .left_top .thumb_info .intro{
+    display: block;
+    font-family: 'Noto Thin';
+    font-size: 25px;
+    color: #fff;
+}
+
+.container3 .left_content .left_top .thumb_info .subject{
+    display: block;
+    margin-top: 23px;
+    font-family: 'Noto Regular';
+    font-size: 35px;
+    color: #fff;
+}
+
+.container3 .left_content .left_top .thumb_info .intro_info{
+    display: inline-block;
+    margin-top: 17px;
+    font-family: 'Noto Light';
+    font-size: 13px;
+    color: #fff;
+}
+.container3 .left_content .left_top .thumb_info .goto{
+    display: inline-block;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.container3 .left_content .left_top .thumb_info .goto > ul > li{
+    float: left;
+    width: 50%;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.container3 .left_content .left_top .thumb_info .goto > ul > li > p {
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 6px 0;
+    background: #fff;
+    border-radius: 100px;
+    font-family: 'Noto Light';
+    font-size: 15px;
+    color: #222;
+    text-align: center;
+    transition: .4s;
+}
+
+/* 왼쪽 아래 */
+
+.container3 .left_content .left_bottom {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+.container3 .left_content .left_bottom{
+    width: 92.5%;
+}
+
+.container3 .left_content .left_bottom .guide .bg_campus{
+    width: 100%;
+}
+
+.container3 .left_content .left_bottom .guide .title{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    font-family: 'S-CoreDream-5Medium';
+    font-size: 25px;
+    color: #fff;
+}
+
+.container3 .left_content .left_bottom .guide  .guide_ul{
+    position: absolute;
+    top: -54px;
+    left: 239px;
+    display: flex;
+}
+
+.container3 .left_content .left_bottom .guide .guide_ul .guide_li {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.container3 .left_content .left_bottom .guide .guide_ul .guide_li .guide_div{
+    display: flex;
+    width: 116px;
+    height: 166px;
+    background: #fff;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 하서 3번째 section right content */ 
+
+.container3 .right_content {
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+  /* .mainbg2 {
+    background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/bg-introduce.jpg)
+      no-repeat center;
+    height: 100%;
+  } */
+  
+  .newsBox {
+    position: relative;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 21px 30px 69px 30px;
+  }
+
+  .skuTitle {
+    margin-right: 19px;
+    font-size: 34px;
+  }
+
+  .controlButton {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .upButton {
+    background: #414141
+      url(https://www.sungkyul.ac.kr/Web-home/fnct/recentBbs/main_recent/images/ico-news-prev.png)
+      no-repeat center center;
+    width: 50px;
+    height: 50px;
+    padding-right: 0px;
+  }
+  
+  .downButton {
+    background: #fff
+      url(https://www.sungkyul.ac.kr/Web-home/fnct/recentBbs/main_recent/images/ico-news-next-on.png)
+      no-repeat center center;
+    width: 50px;
+    height: 50px;
+  }
+
+  .mb-19 {
+    padding-top: 6px;
+    padding-right: 20px;
+  }
+   
+  .newsDate {
+    margin-bottom: 5px;
+    padding-left: 25px;
+  }
+
+  .dateText {
+    color: #999;
+    font-weight: lighter;
+  }
+
+  .newsDetail {
+    padding-left: 25px;
+    color: #3f3f3f;
+  }
+ 
+
+/* 채연 부분 */

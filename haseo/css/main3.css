@@ -1,0 +1,90 @@
+.main3 {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/bg-sns.jpg)
+    no-repeat center;
+  padding: 70px 20px;
+  display: block;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.title1,
+.title2 {
+  font-size: 30px;
+}
+
+.wrapIcon {
+  padding-bottom: 30px;
+}
+
+.youtube {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns1.png)
+    no-repeat bottom center;
+}
+
+.blog {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns2.png)
+    no-repeat top center;
+}
+.blogEvent:hover {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns2.png)
+    no-repeat bottom center;
+}
+
+.instagram {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns4.png)
+    no-repeat top center;
+}
+.instagramEvent:hover {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns4.png)
+    no-repeat bottom center;
+}
+
+.facebook {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns5.png)
+    no-repeat top center;
+}
+.facebookEvent:hover {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-sns5.png)
+    no-repeat bottom center;
+}
+
+.facebook,
+.blog,
+.instagram,
+.youtube {
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+
+.skunews {
+  background-size: cover;
+  height: 60px;
+}
+
+.skunewspaper {
+  background-size: cover;
+  height: 60px;
+}
+
+.skunews {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-tab2.png)
+    no-repeat;
+  background-size: cover;
+  width: 281px;
+  height: 60px;
+}
+
+.skunewspaper {
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/main/ico-tab1.png)
+    no-repeat;
+  background-size: cover;
+  width: 281px;
+  height: 60px;
+  margin-right: 16px;
+}

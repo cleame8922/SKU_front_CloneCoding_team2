@@ -1,0 +1,80 @@
+*,
+:after,
+:before,
+::after,
+::before {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap-sns .tab-list .con-list {
+  float: left;
+  width: 25%;
+  position: relative;
+  transition: 0.4s;
+}
+.wrap-sns .tab-list .slick-list {
+  overflow: visible;
+}
+.wrap-sns .tab-list .con-list .con-box {
+  padding-right: 17.9%;
+}
+.wrap-sns .tab-list .con-list .con-box a {
+  display: block;
+}
+.wrap-sns .tab-list .con-list .con-box .thumb {
+  overflow: hidden;
+}
+.wrap-sns .tab-list .con-list .con-box .thumb img {
+  position: relative;
+  left: 50%;
+  width: auto;
+  max-width: none;
+  height: 225px;
+  transform: translate(-50%, 0);
+}
+.wrap-sns .tab-list .con-list .desc {
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  margin-top: -30px;
+  padding: 28px 29px;
+  background: #fff;
+  box-shadow: 2px 2px 20px 0px rgba(4, 0, 0, 0.3);
+}
+
+.wrap-sns .tab-list .con-list .desc .subject {
+  overflow: hidden;
+  display: block;
+  height: 50px;
+  margin-top: 30px;
+  font-family: 'Noto Regular';
+  font-size: 18px;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+.wrap-sns .tab-list .con-list .desc:after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  top: -45px;
+  width: 77px;
+  height: 77px;
+  background: #295ca4
+    url('https://www.sungkyul.ac.kr/sites/skukr/images/main/arrow-sns.png')
+    no-repeat center center;
+  transition: 0.4s;
+}
+.wrap-sns .tab-list .con-list a:hover .desc:after {
+  right: -10px;
+  opacity: 1;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}

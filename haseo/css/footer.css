@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #282b30;
+  padding: 0px 40px;
+  font-family: 'Noto Light';
+}
+
+/* .footer div {
+  display: flex;
+} */
+
+.footer1 {
+  height: 64px;
+  width: 100%;
+}
+
+.footer2 {
+  padding: 46px 0 46px 0;
+  font-size: 16px;
+}
+
+.footerUl {
+  padding: 20px 0px;
+}
+
+.footerLogo {
+  background: url(https://www.sungkyul.ac.kr/sites/guide/images/common/logo-footer.jpg);
+  width: 213px;
+  height: 51px;
+}
+
+.address {
+  margin-bottom: 10px;
+  font-family: 'Noto Light';
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.c {
+  font-family: 'Noto Light';
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 26px;
+  padding-right: 27px;
+}
+
+.footerC {
+  color: #fff;
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/common/dot-footer-bottom.png)
+    no-repeat right center;
+}
+
+.footerC1 {
+  color: #5199fe;
+  background: url(https://www.sungkyul.ac.kr/sites/skukr/images/common/dot-footer-bottom.png)
+    no-repeat right center;
+}
+
+.footerC2 {
+  color: #fff;
+}
+
+.hrLine {
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: 0.5px 0 0 0;
+}
+
+.footerCopy {
+  font-family: 'TitilliumWeb-ExtraLight';
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#main-menu {
+  margin-left: auto;
+}

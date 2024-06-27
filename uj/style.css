@@ -1,0 +1,195 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* menu */
+.container2 {
+    background: url('/imageSlide/bg-side1.png') no-repeat;
+    background-size: cover; 
+    padding: 40px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+.container2 .left_con{
+    width: 50%;
+    float: left;
+}
+
+.notice_nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.notice {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.button {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #003956;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+.button.active, .button:hover {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background: #c71514;
+    transform: translate(-51%, 0) skew(-25deg);
+}
+
+.button.active, .button:hover{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+}
+
+.notice_content {
+    display: none;
+}
+
+.notice_content:not(.hidden) {
+    display: block;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.item:after{
+    content:'';
+    position:absolute;
+    left:0px;
+    top:-1px;
+    width:3px;
+    height:0%;
+    background:#c71513;
+    transition:.4s;
+}
+
+.subject {
+    flex: 1;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.date {
+    color: #888;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 학사일정 */
+.academic-schedule .wrap-sch {
+    position: relative;
+    padding: 30px;
+    margin-top: 115px;
+    background: url('https://www.sungkyul.ac.kr/sites/skukr/images/main/bg-sch.png') no-repeat;
+    background-size: cover;
+}
+
+.academic-schedule .title {
+    display: block;
+    margin-bottom: 28px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.academic-schedule .title span {
+    position: relative;
+}
+
+.academic-schedule .title span:after {
+    content: '';
+    position: absolute;
+    left: 141%;
+    top: 17px;
+    width: 77px;
+    height: 1px;
+    background: #fff;
+}
+
+.academic-schedule .schedule {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.academic-schedule .info {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 10px;
+}
+
+.academic-schedule .info .date,
+.academic-schedule .info .desc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.academic-schedule .info .date {
+    width: 60px;
+}
+
+.academic-schedule .info .date span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #275fa8 url('https://www.sungkyul.ac.kr/sites/skukr/images/main/pattern-sch.png');
+    border-radius: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    transform: rotateY(0);
+    transition: .65s;
+}
+
+.academic-schedule .info:hover .date span {
+    transform: rotateY(360deg);
+}
+
+.academic-schedule .info .desc {
+    padding-left: 15px;
+}
+
+.academic-schedule .info .desc .full-date {
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .6);
+}
+
+.academic-schedule .info .desc .subject {
+    overflow: hidden;
+    display: block;
+    width: 90%;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 17px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
